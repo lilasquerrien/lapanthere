@@ -45,7 +45,13 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px;
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .bloc-lg {
+        padding: 130px;
+    }
 }
 
 .bloc-md {
@@ -269,7 +275,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .row-no-gutters {
@@ -436,8 +442,7 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .mg-lg {
@@ -651,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -715,7 +720,8 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #000000!important;
+    line-height: 1.5;
 }
 
 .med-width-whitespace {
@@ -756,7 +762,7 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
+    margin-bottom: 10px;
     margin-top: 50px;
 }
 
@@ -771,7 +777,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #F3976C;
     padding: 40px 40px 40px 40px;
 }
 
@@ -797,6 +803,11 @@ h4 {
     position: relative;
 }
 
+.tc-black {
+    color: #000000!important;
+    position: relative;
+}
+
 .skills__title {
     width: 70%;
     color: #6F6F6F!important;
@@ -814,13 +825,13 @@ h4 {
 }
 
 .quote__title {
-    width: 80%;
+    width: 100%;
     color: #6F6F6F!important;
     display: flex;
-    margin: auto;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: -1px;
+    margin: auto;
 }
 
 @media (max-width:767px) {
@@ -830,14 +841,14 @@ h4 {
 }
 
 .quote__subtitle {
-    width: 80%;
+    width: 100%;
     color: #6F6F6F!important;
     display: flex;
-    justify-content: center;
-    margin: auto;
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
+    padding-top: 10px;
+    justify-content: center;
 }
 
 @media (max-width:767px) {
@@ -894,10 +905,6 @@ h4 {
     border-color: #F3976C!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -912,13 +919,10 @@ h4 {
 
 .contact__info{
     font-size: 14px;
+    text-align: end;
 }
 
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -960,6 +964,7 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
+        
     }
     .bloc {
         padding-left: constant(safe-area-inset-left);
@@ -1126,8 +1131,7 @@ h4 {
 
   @media (max-width: 767px) {
     .voffset-lg {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin: 10px;
     }
 }
 
@@ -1194,4 +1198,5 @@ h4 {
        margin-bottom: 30px ;
        font-size: 14px;
     }
+}
 }

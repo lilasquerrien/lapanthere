@@ -2011,8 +2011,13 @@ pre code {
 }
 
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    margin: 20px 10px;
+}
+
+@media (max-width:1024px) {
+    .row{
+        margin: 10px;
+    }
 }
 
 .row-no-gutters {
@@ -8085,7 +8090,13 @@ button.close {
 
 @media (max-width: 767px) {
     .row__contact {
-       padding-top: 30px;
-       padding-bottom: 30px;
+       padding: 30px;
     }
+}
+
+.col-md-8{
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 30px;
 }
