@@ -289,7 +289,9 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 40px;
+    background: none;
+    background-color: transparent !important;
 }
 
 .navbar {
@@ -643,10 +645,8 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -711,8 +711,9 @@ p {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.4em;
+    background-color: transparent !important;
 }
 
 h3 {
@@ -727,14 +728,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
 }
 
 .icons {
@@ -785,15 +778,21 @@ h4 {
     text-decoration: underline!important;
 }
 
-.bgc-white {
-    background-color: #FFFFFF;
-}
-
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
+.bgc-atomic-white {
+    width: 400px;
+    padding: 20px;
+}
+
 .tc-white {
+    color: #ffffff!important;
+    position: relative;
+}
+
+.tc-orange {
     color: #F3976C!important;
     position: relative;
 }
@@ -1194,4 +1193,8 @@ h4 {
        font-size: 14px;
     }
 }
+
+.img {
+    width: auto;
+    height: auto;
 }
