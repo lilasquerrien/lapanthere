@@ -290,8 +290,8 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 40px;
-    background: none;
-    background-color: transparent !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    padding: 20px 0 20px 0;
 }
 
 .navbar {
@@ -443,7 +443,7 @@ nav .caret {
 }
 
 .mg-md {
-    margin: 15px;
+    margin: auto;
 }
 
 .mg-lg {
@@ -704,7 +704,7 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 15px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -794,6 +794,9 @@ h3 {
 .tc-orange {
     color: #F3976C!important;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    padding: 20px 0 20px 0;
+    width: 70%;
 }
 
 .tc-black {
@@ -991,6 +994,7 @@ h3 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+        padding-top: 10px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1191,4 +1195,8 @@ h3 {
        margin-bottom: 30px ;
        font-size: 14px;
     }
+}
+
+input[type="text"], input[type="email"] {
+	width: 100%;
 }
