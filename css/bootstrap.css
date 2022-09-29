@@ -212,7 +212,8 @@ legend {
 }
 
 textarea {
-    overflow: auto
+    overflow: auto;    
+    max-width: 100%;
 }
 
 optgroup {
@@ -3198,7 +3199,8 @@ fieldset[disabled] .form-control {
 }
 
 textarea.form-control {
-    height: auto
+    height: auto;
+    max-width: 100%;
 }
 
 input[type=search] {
@@ -4702,7 +4704,7 @@ select[multiple].input-group-lg>.input-group-btn>.btn,
 textarea.input-group-lg>.form-control,
 textarea.input-group-lg>.input-group-addon,
 textarea.input-group-lg>.input-group-btn>.btn {
-    height: auto
+    height: auto;
 }
 
 .input-group-sm>.form-control,
