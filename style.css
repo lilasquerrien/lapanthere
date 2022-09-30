@@ -1201,3 +1201,8 @@ h3 {
 input[type="text"], input[type="email"] {
 	width: 100%;
 }
+
+.img {
+    width: auto;
+    height: auto;
+}
